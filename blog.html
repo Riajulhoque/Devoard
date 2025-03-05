@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="navbar bg-base-100 shadow-sm">
+    <div class="flex-1 logo">  
+      <a class="btn btn-ghost text-xl"><img src="./assets/logo.png" alt="">Dev<span class="font-bold">Board</span></a>
+    </div>
+    <div class="flex gap-3">
+      <a href="./index.html"> <button id="bButton" class="btn btn-primary ">Back Home</button></a>
+    </div>
+
+  </div>
+  <section id="blogs">
+    <h2>Blogs</h2>
+    <div class="blogs">
+      <div class="questions"><h3>Question-1: What are the different ways to select an element in the DOM?</h3>
+      </div>
+      <div class="ans">
+        <h4>There are multiple ways to select an element in the DOM using JavaScript. As like ID: getElementById("id"), Class: getElementsByClassName("class"), Tag: getElementsByTagName("tag"), Name: getElementsByName("name").</h4>
+      </div>
+      <div class="questions">
+        <h3>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+      </div>
+      <div class="ans">
+        <h4>InnerHTML	Returns or sets the HTML inside an element, including tags.
+          <br>
+          InnerText	Returns only visible text (ignores hidden elements).It Doesn't include HTML tags.
+          <br>
+          TextContent	Returns all text inside an element, including hidden ones. More performance-efficient than innerText. </h4>
+      </div>
+      <div class="questions">
+        <h3>Question-3: What is event delegation in the DOM?</h3>
+      </div>
+      <div class="ans">
+        <h4>
+          Event Delegation in the DOM is a JavaScript technique where you attach a single event listener to a parent element instead of adding multiple listeners to individual child element.
+        </h4>
+      </div>
+      <div class="questions">
+        <h3>Question-4: What is event bubbling in the DOM?</h3>
+      </div>
+      <div class="ans">
+        <h4>Event bubbling in the DOM is a process that propagates events up through the DOM tree, starting with the innermost element</h4>
+      </div>
+      <div class="questions">
+        <h3>Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+      </div>
+      <div class="ans">
+        <h4></h4>
+      </div>
+    </div>
+  </section>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="./app.js"></script>
+</body>
+</html>

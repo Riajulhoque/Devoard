@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="navbar bg-base-100 shadow-sm">
+    <div class="flex-1 logo">  
+      <a class="btn btn-ghost text-xl"><img src="./assets/logo.png" alt="">Dev<span class="font-bold">Board</span></a>
+    </div>
+    <div class="flex gap-3">
+      <!-- <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" /> -->
+      <div class="flex-1 selectB">
+        <a class="selects text-xl"><img src="./assets/checkbox.png" alt=""><span class="font-bold" id="TaskComplete">23</span></a>
+      </div>
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 color-btn rounded-full">
+            <img alt="" src="./assets/theme-btn.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="bankf">
+    <div class="taskS">
+      <div class="bannerHead">
+        <div class="taskAssigned">
+          <div class="img"><img src="./assets/checkbox.png" alt=""></div>
+           <!-- <img src="./assets/checkbox.png" alt=""> -->
+           <div class="t">
+            <p>Task Assigned</p>
+            <h3 id="taskAssigned">6</h3>
+           </div>
+        </div>
+        <div class="discoverS">
+          <a href="./blog.html">
+            <div class="img"><img src="./assets/board.png" alt=""></div>
+            <h3>Discover Something <br>New Today!</h3>
+          </a>
+        </div>
+        <div class="time">
+          <div class="img"><img src="./assets/calender.png" alt=""></div>
+          <!-- <img src="./assets/checkbox.png" alt=""> -->
+          <div class="t">
+           <p>Wed , Jul 28 2025</p>
+           <h3 id="clock"> </h3>
+          </div>
+        </div>
+      </div>
+      <div class="bar"></div>
+      <div class="allTask">
+        <div class="tasks">
+          <h5>ShopEase</h5>
+          <h3>Fix Mobile Button Issue </h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+        <div class="tasks">
+          <h5>CloudSync</h5>
+          <h3>Add Dark Mode</h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+        <div class="tasks">
+          <h5>SwiftPay</h5>
+          <h3>Optimize  Home page </h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+        <div class="tasks">
+          <h5>Meta</h5>
+          <h3>Add new emoji 🤲</h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+        <div class="tasks">
+          <h5>Google LLC</h5>
+          <h3>Integrate OpenAI API </h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+        <div class="tasks">
+          <h5>Glassdoar</h5>
+          <h3>Improve Job searching  </h3>
+          <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+          <div class="bar"></div>
+          <div class="deadline">
+            <div class="dtime">
+              <h4>Deadline</h4>
+              <h6>21 March 2025</h6>
+            </div>
+            <button id="ButtonC" class="btn btn-primary ButtonC items-center">Completed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="messageS">
+      <div class="activityLog">
+        <div class="text">
+          <img src="./assets/activity.png" alt="">
+          <h3>Activity Log</h3>
+        </div>
+        <button class="btn btn-primary cButton items-center">Clear History</button>
+      </div>
+      <div class="bar"></div>
+      <div id="message">
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
